@@ -4,8 +4,6 @@
 // 단, 개수를 비교할 때 대문자와 소문자는 구별하지 않습니다.
 // 예를 들어 s가 "pPoooyY"면 true를 return하고 "Pyy"라면 false를 return합니다.
 
-
-
 function solution(s){
     var answer = true;
     //대문자로 변경
