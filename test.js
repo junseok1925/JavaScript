@@ -1,11 +1,10 @@
-var a = 1;
-var outer = function() {
-	var inner = function() {
-		console.log(a); // undefined
-		var a = 3;
-	};
-	inner();
-	console.log(a); // 1
-};
-outer();
-console.log(a);
+
+let s = [1,2,3,4]
+
+function solution(s) {
+    var answer = true;
+    if(s.length == 4 || s.length == 6){
+        return answer = true;
+    }
+	console.log(answer);
+}
